@@ -1,0 +1,4 @@
+com\cice\testMaven\dao\UsuarioRegistro.class
+com\cice\testMaven\datasource\Datasource.class
+com\cice\testMaven\servlets\Registry.class
+com\cice\testMaven\servlets\Login.class
