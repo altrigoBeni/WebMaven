@@ -2,16 +2,27 @@
  "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
+
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-  	<servlet-name>Main</servlet-name>
-  	<display-name>Main</display-name>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
   	<description></description>
-  	<servlet-class>com.cice.testMaven.servlets.Main</servlet-class>
+  	<servlet-class>com.cice.testMaven.servlets.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Registry</servlet-name>
+  	<display-name>Registry</display-name>
+  	<description></description>
+  	<servlet-class>com.cice.testMaven.servlets.Registry</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>Main</servlet-name>
-  	<url-pattern>/Main</url-pattern>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Registry</servlet-name>
+  	<url-pattern>/Registry</url-pattern>
   </servlet-mapping>
 </web-app>
